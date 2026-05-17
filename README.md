@@ -75,7 +75,7 @@ You may refer to any valid namedtuple property by using dot-attribute notation.
 '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
 ```
 
-Yaml configuration files work as well, [with the `module_resources.YamlResourceModule` class](./module_resources/examples/yaml/__init__.py).
+Yaml configuration files work as well, [with the `module_resources.YamlModuleResource` class](./module_resources/examples/yaml/__init__.py).
 
 ```py
 >>> from module_resources.examples.yaml import logging_config as yaml_logging_config
